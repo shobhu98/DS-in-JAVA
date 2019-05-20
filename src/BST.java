@@ -67,7 +67,19 @@ public class BST {
        return false;
 
    }
+   public int max(){
+   return max(root);
+   }
 
+    private int max(Node node) {
+       if(node.right==null){
+           return node.value;
+       }
+       else{
+           return max(node.right);
+       }
+
+    }
 
 
     private class Node{

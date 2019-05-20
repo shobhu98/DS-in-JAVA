@@ -2,7 +2,7 @@ public class BST {
     private Node root;
 
    public BST(int[] arr){
-       root=constructor(arr,0,arr.length);
+       root=constructor(arr,0,arr.length-1);
 
    }
    private Node constructor(int[] arr,int low,int high){
@@ -16,6 +16,33 @@ public class BST {
 
        return node;
 
+   }
+   public void display(){
+       display(root);
+   }
+   private void display(Node node){
+       if(node==null){
+           return;
+       }
+
+
+      String str="";
+       if(node.left==null){
+           str+=".";
+       }
+       else {
+           str+=node.left.value;
+       }
+       str+="=>"+node.value+"<=";
+       if(node.right==null){
+           str+=".";
+       }
+       else {
+           str+=node.right.value;
+       }
+       System.out.println(str);
+       display(node.left);
+       display(node.right);
    }
 
 

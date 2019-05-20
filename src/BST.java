@@ -80,6 +80,19 @@ public class BST {
        }
 
     }
+    public int min(){
+     return   min(root);
+
+    }
+
+    private int min(Node root) {
+       if(root.left==null){
+           return root.value;
+       }
+       else {
+           return min(root.left);
+       }
+    }
 
 
     private class Node{

@@ -44,6 +44,29 @@ public class BST {
        display(node.left);
        display(node.right);
    }
+   public  boolean find(int item){
+
+      return find(root,item);
+
+   }
+
+
+   private boolean find(Node node, int item){
+       if(node==null){
+           return false;
+       }
+       if(item<node.value){
+          return find(node.left,item);
+       }
+       else if(item>node.value){
+           return find(node.right,item);
+       }
+       else if(item==node.value){
+           return true;
+       }
+       return false;
+
+   }
 
 
 

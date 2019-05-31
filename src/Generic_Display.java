@@ -16,10 +16,12 @@ public class Generic_Display   {
 
     public static <T> void display(T[] arr){
         for(T val:arr){
-            System.out.print(val+", ");
+            System.out.println(val+", ");
         }
         System.out.println();
     }
+
+
 }
 
 

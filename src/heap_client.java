@@ -10,6 +10,9 @@ public class heap_client {
         heap.display();
         heap.add(5);
         heap.display();
+
+        heap.remove();
+        heap.display();
     }
 
 }

@@ -13,14 +13,25 @@ public class Linked_list {
         size++;
 
     }
+    public void inserLast(int value){
+        if(size==0){
+            insertFirst(value);
+            return;
+        }
+        Node node=new Node(value);
+        tail.next=node;
+        tail=node;
+        size++;
+
+    }
     public void display(){
         Node node=head;
         while (node!=null){
-            System.out.print(node.value +',');
+            System.out.print(node.value+",");
             node=node.next;
 
         }
-        System.out.print("end \b");
+        System.out.print("\b end ");
     }
 
 
@@ -32,6 +43,7 @@ public class Linked_list {
         private Node(int value){
             this.value=value;
         }
+
 
     }
 }

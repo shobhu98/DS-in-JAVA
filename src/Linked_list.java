@@ -24,6 +24,26 @@ public class Linked_list {
         size++;
 
     }
+    public void deleteFirst(){
+        Integer value=head.value;
+        head=head.next;
+
+        if(head==null){
+            tail=head;
+        }
+        size--;
+
+    }
+
+    public void deleteLast(){
+        if(size<2){
+            deleteFirst();
+            return;
+        }
+        Integer value=tail.value;
+        Node node=head;
+        while ()
+    }
     public void display(){
         Node node=head;
         while (node!=null){
@@ -33,6 +53,7 @@ public class Linked_list {
         }
         System.out.print("\b end ");
     }
+
 
 
 

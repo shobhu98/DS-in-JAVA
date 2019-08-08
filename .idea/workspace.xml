@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e69714-d9f4-42ae-b16f-25306a509fe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linked_list.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3e69714-d9f4-42ae-b16f-25306a509fe8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Linked_list.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="441">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -28,17 +26,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="441">
               <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stack_Client.java">
+        <entry file="file://$PROJECT_DIR$/src/Queue_Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -82,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/Linked_list.java" />
         <option value="$PROJECT_DIR$/src/Stacks.java" />
         <option value="$PROJECT_DIR$/src/Stack_Client.java" />
+        <option value="$PROJECT_DIR$/src/Queue.java" />
+        <option value="$PROJECT_DIR$/src/Queue_Client.java" />
       </list>
     </option>
   </component>
@@ -135,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stack_Client">
+  <component name="RunManager" selected="Application.Queue_Client">
     <configuration name="Car_client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Car_client" />
       <module name="DS__in_j_ava" />
@@ -143,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generic_Display" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic_Display" />
+    <configuration name="Queue_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue_Client" />
       <module name="DS__in_j_ava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue_Client" />
         <item itemvalue="Application.Stack_Client" />
         <item itemvalue="Application.linked_client" />
         <item itemvalue="Application.heap_client" />
         <item itemvalue="Application.Car_client" />
-        <item itemvalue="Application.Generic_Display" />
       </list>
     </recent_temporary>
   </component>
@@ -364,24 +373,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linked_list.java">
+    <entry file="file://$PROJECT_DIR$/src/Stack_Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="441">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack_Client.java">
+    <entry file="file://$PROJECT_DIR$/src/Linked_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue_Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>

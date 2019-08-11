@@ -5,37 +5,38 @@ public class Binary_prac2 {
     private int size;
 
     Binary_prac2(){
-        Scanner s =new Scanner(System.in);
+        Scanner s=new Scanner(System.in);
         root=takeInput(s,null,false);
     }
-
     private Node takeInput(Scanner s,Node parent,boolean isleftorright){
         if(parent==null){
-            System.out.println("enter the value of root node");
-
+            System.out.println("enter the value of the root node ");
         }
-        else{
+        else {
             if(isleftorright){
-                System.out.println("enter the value of left node"+parent.value);
+                System.out.println("enter the value of left child of"+parent.val);
             }
-            else{
-                System.out.println("enter the value of right child"+parent.value);
+            else {
+                System.out.println("enter the value of left child of"+parent.val);
+
             }
         }
-        int nodevalue=s.nextInt();
-        Node node=new Node(nodevalue,null,null);
-        boolean choice;
-        System.out.println("do you have left node of"+node.value);
+        int nodeValue=s.nextInt();
+        Node node=new Node(nodeValue,null,null);
+        boolean choice=false;
+        System.out.println("Do you have  left child of"+node.val);
         choice=s.nextBoolean();
         if(choice){
             node.left=takeInput(s,node,true);
-        }
 
-        System.out.println("do you have right node of"+node.value);
+        }
+         choice=false;
+        System.out.println("Do you have  right child of"+node.val);
         choice=s.nextBoolean();
         if(choice){
-            node.left=takeInput(s,node,false);
+            node.right=takeInput(s,node,false);
         }
+
         return node;
 
 
@@ -43,15 +44,23 @@ public class Binary_prac2 {
 
 
 
-    private class Node{
-        private int value;
-        private Node left;
-        private Node right;
 
-        private Node(int value,Node left,Node right){
-            this.left=left;
-            this.value=value;
-            this.right=right;
-        }
+
+
+
+
+
+
+private class Node{
+    private  int val;
+    private Node left;
+    private Node right;
+
+    private Node(int val,Node left,Node right){
+        this.val=val;
+        this.right=right;
+        this.left=left;
+
     }
+}
 }

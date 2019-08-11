@@ -97,7 +97,7 @@ public class Binary_tree {
             }
 
         }
-        //heellooo
+
 
     public void resd(int t,int x){
         System.out.println(t+x);
